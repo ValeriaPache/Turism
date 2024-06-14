@@ -88,7 +88,7 @@
 /*                                container Body           */
 .containerbody{
     width: 100%;
-    height: 1800px;
+    height: 3410px;
     background-color: #2d47ff;
     display: flex;
     justify-content: center;
@@ -96,8 +96,7 @@
 }
 .containerbody > .subcontainerBody{
     width: 98%;
-    height: 1790px;
-    background-color: aqua;
+    height: 3400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,7 +113,6 @@
 .subcontainerBody1 > .containerButtonBody{
     width: 90%;
     height: 160px;
-    background-color: #10066f;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -143,7 +141,6 @@
 .subcontainerBody > .subcontainerBody2{
     width: 97%;
     height: 40px;
-    background-color: #10066f;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -152,7 +149,6 @@
 .subcontainerBody2 > .containerLineBody{
     width: 99%;
     height: 25px;
-    background-color: #d4e5ff;
 }
 .containerLineBody > hr{
     background: black;
@@ -161,8 +157,7 @@
 
 .subcontainerBody > .subcontainerBody3{
     width: 90%;
-    height: 1500px;
-    background-color: #10066f;
+    height: 3120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -170,8 +165,7 @@
 }
 .subcontainerBody3 >.containerCardsBody{
     width: 95%;
-    height: 1480px;
-    background-color: cadetblue;
+    height: 3100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -180,7 +174,7 @@
 .containerCardsBody > .containerCard{
     width: 95%;
     height: 220px;
-    background-color: chartreuse;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,7 +183,6 @@
 .containerCard > .containerTittleCard{
     width: 90%;
     height: 2rem;
-    background-color: #2d47ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +190,6 @@
 .containerCard > .containerImgCard{
     width: 90%;
     height: 170px;
-    background-color: #d4e5ff;
     display: flex;
     justify-content: center;
     align-items: center;
