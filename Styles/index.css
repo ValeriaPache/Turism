@@ -392,3 +392,162 @@ hr{
     border-radius: 60rem;
 } 
 }
+
+
+
+@media screen and (max-width: 1555px) and (min-width: 738px) { 
+    /*                                container Header          */
+.subcontainerHeader > .subcontainerHeader1{
+    width: 35%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.subcontainerHeader > .subcontainerHeader2{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/*                                container Body           */
+.containerbody{
+    width: 100%;
+    height: 1130px;
+    background-color: #2d47ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerbody > .subcontainerBody{
+    width: 98%;
+    height: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/*                            container  Buttoms Body       */
+.subcontainerBody > .subcontainerBody1{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerBody1 > .containerButtonBody{
+    width: 99%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerButtonBody > .subcontainerButtomBody{
+    width: 24%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerButtomBody > .containerTittleButtom{
+    width: 43%;
+    height: 1.5rem;
+}
+.containerTittleButtom > .tittleButtom{
+    color: khaki;
+    font-size: 1.3rem;
+}
+.subcontainerButtomBody > .buttom1{
+    width: 45%;
+    height: 1.5rem;
+}
+/*                            container  line Body       */
+.subcontainerBody > .subcontainerBody2{
+    width: 99%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.subcontainerBody2 > .containerLineBody{
+    width: 99.5%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background-color:#c1ff95;
+}
+/*                            container  cards Body       */
+
+.subcontainerBody > .subcontainerBody3{
+    width: 95%;
+    height: 920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.subcontainerBody3 >.containerCardsBody{
+    width: 99%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerCardsBody > .containerCard{
+    width: 23%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/*                                container Footer          */
+.containerFooter{
+    width: 100%;
+    height: 100px;
+    background-color: #090c5d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerFooter > .subcontainerFooter{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainerFooter > .containerIcons{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerIcons > .subcontainerIconfooter{
+    width: 20%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerIconfooter > .imgFooter{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 60rem;
+} 
+}
