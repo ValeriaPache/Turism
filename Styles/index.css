@@ -604,7 +604,7 @@ hr{
 /*                                container Body           */
 .containerbody{
     width: 100%;
-    height: 890px;
+    height: 1130px;
     background-color: #2d47ff;
     display: flex;
     justify-content: center;
@@ -612,7 +612,7 @@ hr{
 }
 .containerbody > .subcontainerBody{
     width: 98%;
-    height: 870px;
+    height: 1100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -679,7 +679,7 @@ hr{
 
 .subcontainerBody > .subcontainerBody3{
     width: 95%;
-    height: 670px;
+    height: 920px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -695,13 +695,17 @@ hr{
     align-items: center;
 }
 .containerCardsBody > .containerCard{
-    width: 19%;
+    width: 23%;
     height: 200px;
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
+.containerImgCard > .imgCardBody{
+    width: 20rem;
+    height: 10rem;
 }
 /*                                container Footer          */
 .containerFooter{
